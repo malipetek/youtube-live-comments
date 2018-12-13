@@ -1,0 +1,32 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+.outlined{
+  outline :3px solid #dc4
+}
+
+.relatve{
+  outline: 2px solid rgb(68, 187, 84);
+}
+
+div#yt_chat_extension_div .message{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+div#yt_chat_extension_div img{
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+div#yt_chat_extension_div {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  background-color: #333;
+  z-index: 100;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+}
